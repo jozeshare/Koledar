@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorško polje//Koledarji//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sorško polje — Predavanja in tečaji
+X-WR-CALDESC:Predavanja in tečaji iz digesta (tudi drugi organizatorji).
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8f2e3b54ee972c15@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260925T100000
+DTEND:TZID=Europe/Ljubljana:20260925T113000
+SUMMARY:Kako krepiti zdravje (antropozofsko razumevanje človeka)
+LOCATION:Ljudska univerza Ptuj
+DESCRIPTION:Predava Vesna Forštnerič Lesjak. Posredovano prek digesta Sor
+ ško polje.\nVir: https://www.ptuj.si/ · https://www.lu-ptuj.si/
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:03a5aa785300443b@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260930T190000
+DTEND:TZID=Europe/Ljubljana:20260930T210000
+SUMMARY:Bogastvo perja nad reko Savo
+LOCATION:Mestna knjižnica Kranj (1. nadstropje)
+DESCRIPTION:Predava Dejan Bordjan (DOPPS). Posredovano prek digesta Sorško
+  polje.\nNapovednik DOPPS: https://ptice.si/napovednik/
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c6e438d6fb230542@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260924T190000
+DTEND:TZID=Europe/Ljubljana:20260924T210000
+RRULE:FREQ=WEEKLY;COUNT=12;BYDAY=TH
+SUMMARY:Kreativno pisanje = osebna rast (Danica Tajčman)
+DESCRIPTION:12-tedenski tečaj. Začetek 24. 9. 2026.\nhttps://danicatajcma
+ n.com/kreativno-pisanje/
+CATEGORIES:Predavanja
+URL:https://danicatajcman.com/kreativno-pisanje/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:049cc733a2a9884d@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20261006T200000
+DTEND:TZID=Europe/Ljubljana:20261006T213000
+SUMMARY:Steinerjeve vaje (Zoom) — Mateja Katona
+LOCATION:Zoom
+DESCRIPTION:Prvo srečanje novega cikla 6 Steinerjevih vaj. Prijave do 1. 1
+ 0. 2026: https://forms.gle/iYobKeAVPxDyFGKt9\nKontakt: katona.mateja@gmail
+ .com\nNadaljnja srečanja (po mailu): 10. 11.\, 15. 12. 2025\; 12. 1.\, 16
+ . 2.\, 16. 3.\, 13. 4. 2026 — preveri aktualni cikel pri Mateji.
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e942f2b244fbe72@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:VALUE=DATE:20261001
+DTEND:VALUE=DATE:20261002
+SUMMARY:Rok prijave: Steinerjeve vaje (Mateja Katona)
+DESCRIPTION:Prijave v nov cikel do 1. 10. 2026: https://forms.gle/iYobKeAVP
+ xDyFGKt9
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

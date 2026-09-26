@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorško polje//Koledarji//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sorško polje — Vrtovi
+X-WR-CALDESC:Skupni vrt Praše (sreda) in Barka Zbilje (torek).
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6c4ad106c3371bbf@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260930T160000
+DTEND:TZID=Europe/Ljubljana:20260930T180000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Skupni vrt Praše
+LOCATION:Praše pri Mavčičah (pri Kramarjevem čebelnjaku)
+DESCRIPTION:Tedensko vrtičkanje na skupnem vrtu. Julij–avgust od 17. ure
+ \; sicer od 16. ure (preveri aktualni digest).\nVir: https://sorskopolje.s
+ i
+CATEGORIES:Vrtovi
+URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1aefc5640a5b63f@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260929T160000
+DTEND:TZID=Europe/Ljubljana:20260929T180000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Skupni vrt Barka Zbilje
+LOCATION:Barka Zbilje 1k\, Medvode
+DESCRIPTION:Tedensko vrtičkanje na skupnem vrtu Skupnosti Barka. Julij–a
+ vgust od 17. ure\; sicer od 16. ure.\nVir: https://sorskopolje.si · https
+ ://www.skupnostbarka.si/
+CATEGORIES:Vrtovi
+URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

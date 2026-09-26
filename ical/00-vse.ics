@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorško polje//Koledarji//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sorško polje — Vse (agregat)
+X-WR-CALDESC:Vsi dogodki: tržnice\, vrtovi\, lastni\, predavanja\, narava\
+ , festivali.
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:be1613cea2d45931@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260925T170000
+DTEND:TZID=Europe/Ljubljana:20260925T190000
+RRULE:FREQ=MONTHLY;BYDAY=4FR
+SUMMARY:Mavška tržnica
+LOCATION:Parkirišče za Gasilskim domom\, Mavčiče 69
+DESCRIPTION:Vsak 4. petek v mesecu\, 17–19. Lokalna eko in konvencionalna
+  tržnica. Naročila: https://oskrbovalnica.si\nVir: Društvo Sorško polj
+ e — https://sorskopolje.si
+CATEGORIES:Tržnice
+URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0e03e4f5f3e88619@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20261009T170000
+DTEND:TZID=Europe/Ljubljana:20261009T190000
+RRULE:FREQ=MONTHLY;BYDAY=2FR
+SUMMARY:Stražiška tržnica
+LOCATION:Baragov trg\, Škofjeloška cesta 18\, Stražišče
+DESCRIPTION:Vsak 2. petek v mesecu\, 17–19. Lokalna eko in konvencionalna
+  tržnica. Naročila: https://oskrbovalnica.si\nVir: Društvo Sorško polj
+ e — https://sorskopolje.si
+CATEGORIES:Tržnice
+URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6c4ad106c3371bbf@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260930T160000
+DTEND:TZID=Europe/Ljubljana:20260930T180000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Skupni vrt Praše
+LOCATION:Praše pri Mavčičah (pri Kramarjevem čebelnjaku)
+DESCRIPTION:Tedensko vrtičkanje na skupnem vrtu. Julij–avgust od 17. ure
+ \; sicer od 16. ure (preveri aktualni digest).\nVir: https://sorskopolje.s
+ i
+CATEGORIES:Vrtovi
+URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1aefc5640a5b63f@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260929T160000
+DTEND:TZID=Europe/Ljubljana:20260929T180000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Skupni vrt Barka Zbilje
+LOCATION:Barka Zbilje 1k\, Medvode
+DESCRIPTION:Tedensko vrtičkanje na skupnem vrtu Skupnosti Barka. Julij–a
+ vgust od 17. ure\; sicer od 16. ure.\nVir: https://sorskopolje.si · https
+ ://www.skupnostbarka.si/
+CATEGORIES:Vrtovi
+URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4c6affe21eb057f2@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260919T080000
+DTEND:TZID=Europe/Ljubljana:20260919T130000
+SUMMARY:Eko praznik v Kranju
+LOCATION:Pred Prešernovim gledališčem\, Kranj
+DESCRIPTION:Društvo Sorško polje je soorganizator. Družinska točka iger
+ \, stojnica.\nVir: Visit Kranj / Sorško polje
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f5f306ddd88b5477@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260920T080000
+DTEND:TZID=Europe/Ljubljana:20260920T120000
+SUMMARY:Pohod Jamnik / Zidane skale (z nabiranjem gob)
+LOCATION:Zbor pred AHA centrom
+DESCRIPTION:Organizira Društvo Sorško polje. Varianti: Rovte–Jamnik (~1
+  h) ali Jamnik–Zidane skale (~1\,5 h).
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:637949cd676cdd11@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260929T190000
+DTEND:TZID=Europe/Ljubljana:20260929T210000
+SUMMARY:Sestanek Društva Sorško polje
+LOCATION:KS Mavčiče
+DESCRIPTION:Sestanek društva. Predlogi tem in predavateljev dobrodošli.
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:30fd362a9592a268@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260926T090000
+DTEND:TZID=Europe/Ljubljana:20260926T170000
+SUMMARY:Ogled dobrih praks pridelave žit na Loškem
+LOCATION:Loško (kmetije in mlin)
+DESCRIPTION:Projekt Žita na Loškem — ogled za kmetovalce. Partner: RA S
+ ora\, Kmetija Punčar\, Zavod Poljanska dolina.\nhttps://kmetija-puncar.si
+ /projekt-zita-na-loskem/
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8f2e3b54ee972c15@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260925T100000
+DTEND:TZID=Europe/Ljubljana:20260925T113000
+SUMMARY:Kako krepiti zdravje (antropozofsko razumevanje človeka)
+LOCATION:Ljudska univerza Ptuj
+DESCRIPTION:Predava Vesna Forštnerič Lesjak. Posredovano prek digesta Sor
+ ško polje.\nVir: https://www.ptuj.si/ · https://www.lu-ptuj.si/
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:03a5aa785300443b@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260930T190000
+DTEND:TZID=Europe/Ljubljana:20260930T210000
+SUMMARY:Bogastvo perja nad reko Savo
+LOCATION:Mestna knjižnica Kranj (1. nadstropje)
+DESCRIPTION:Predava Dejan Bordjan (DOPPS). Posredovano prek digesta Sorško
+  polje.\nNapovednik DOPPS: https://ptice.si/napovednik/
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c6e438d6fb230542@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260924T190000
+DTEND:TZID=Europe/Ljubljana:20260924T210000
+RRULE:FREQ=WEEKLY;COUNT=12;BYDAY=TH
+SUMMARY:Kreativno pisanje = osebna rast (Danica Tajčman)
+DESCRIPTION:12-tedenski tečaj. Začetek 24. 9. 2026.\nhttps://danicatajcma
+ n.com/kreativno-pisanje/
+CATEGORIES:Predavanja
+URL:https://danicatajcman.com/kreativno-pisanje/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:049cc733a2a9884d@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20261006T200000
+DTEND:TZID=Europe/Ljubljana:20261006T213000
+SUMMARY:Steinerjeve vaje (Zoom) — Mateja Katona
+LOCATION:Zoom
+DESCRIPTION:Prvo srečanje novega cikla 6 Steinerjevih vaj. Prijave do 1. 1
+ 0. 2026: https://forms.gle/iYobKeAVPxDyFGKt9\nKontakt: katona.mateja@gmail
+ .com\nNadaljnja srečanja (po mailu): 10. 11.\, 15. 12. 2025\; 12. 1.\, 16
+ . 2.\, 16. 3.\, 13. 4. 2026 — preveri aktualni cikel pri Mateji.
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e942f2b244fbe72@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:VALUE=DATE:20261001
+DTEND:VALUE=DATE:20261002
+SUMMARY:Rok prijave: Steinerjeve vaje (Mateja Katona)
+DESCRIPTION:Prijave v nov cikel do 1. 10. 2026: https://forms.gle/iYobKeAVP
+ xDyFGKt9
+CATEGORIES:Predavanja
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d279a45094e8d386@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260930T190000
+DTEND:TZID=Europe/Ljubljana:20260930T210000
+SUMMARY:Bogastvo perja nad reko Savo (DOPPS)
+LOCATION:Mestna knjižnica Kranj
+DESCRIPTION:Predava Dejan Bordjan. Celoten napovednik: https://ptice.si/nap
+ ovednik/
+CATEGORIES:Narava
+URL:https://ptice.si/napovednik/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:53d05eee2914aff5@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260920T090000
+DTEND:TZID=Europe/Ljubljana:20260920T170000
+SUMMARY:Lahko.si! Festival samooskrbe
+LOCATION:Grad Štanjel
+DESCRIPTION:Organizira Društvo Samooskrbni.net.\nhttps://www.samooskrbni.n
+ et/ · https://www.visitstanjel.si/prireditve/festival-samooskrbe
+CATEGORIES:Festivali
+URL:https://www.samooskrbni.net/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9548c2b832003dd2@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:VALUE=DATE:20261003
+DTEND:VALUE=DATE:20261011
+SUMMARY:Teden podeželja na Loškem
+LOCATION:Škofja Loka in okolica
+DESCRIPTION:24. Teden podeželja na Loškem (3.–10. 10. 2026). Program: R
+ azvojna agencija Sora.\nhttps://www.ra-sora.si/24-teden-podezelja-na-loske
+ m/
+CATEGORIES:Festivali
+URL:https://www.ra-sora.si/24-teden-podezelja-na-loskem/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ca491739d137f199@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260905T100000
+DTEND:TZID=Europe/Ljubljana:20260905T160000
+SUMMARY:4. Praznik biodinamike
+LOCATION:Pogačarjev trg\, Ljubljana
+DESCRIPTION:Zveza biodinamikov Slovenije.\nhttps://www.praznikbiodinamike.s
+ i/
+CATEGORIES:Festivali
+URL:https://www.praznikbiodinamike.si/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a00a297df664c8cd@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260919T080000
+DTEND:TZID=Europe/Ljubljana:20260919T130000
+SUMMARY:Eko praznik v Kranju
+LOCATION:Pred Prešernovim gledališčem\, Kranj
+DESCRIPTION:Mestna občina Kranj + partnerji (tudi Sorško polje).
+CATEGORIES:Festivali
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sorško polje//Koledarji//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sorško polje — Lastni dogodki
+X-WR-CALDESC:Sestanki\, pohodi\, eko praznik (soorg.)\, ogledi v okviru dru
+ štva.
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4c6affe21eb057f2@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260919T080000
+DTEND:TZID=Europe/Ljubljana:20260919T130000
+SUMMARY:Eko praznik v Kranju
+LOCATION:Pred Prešernovim gledališčem\, Kranj
+DESCRIPTION:Društvo Sorško polje je soorganizator. Družinska točka iger
+ \, stojnica.\nVir: Visit Kranj / Sorško polje
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f5f306ddd88b5477@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260920T080000
+DTEND:TZID=Europe/Ljubljana:20260920T120000
+SUMMARY:Pohod Jamnik / Zidane skale (z nabiranjem gob)
+LOCATION:Zbor pred AHA centrom
+DESCRIPTION:Organizira Društvo Sorško polje. Varianti: Rovte–Jamnik (~1
+  h) ali Jamnik–Zidane skale (~1\,5 h).
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:637949cd676cdd11@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260929T190000
+DTEND:TZID=Europe/Ljubljana:20260929T210000
+SUMMARY:Sestanek Društva Sorško polje
+LOCATION:KS Mavčiče
+DESCRIPTION:Sestanek društva. Predlogi tem in predavateljev dobrodošli.
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:30fd362a9592a268@sorsko-ical.hladni
+DTSTAMP:20260926T201942Z
+DTSTART:TZID=Europe/Ljubljana:20260926T090000
+DTEND:TZID=Europe/Ljubljana:20260926T170000
+SUMMARY:Ogled dobrih praks pridelave žit na Loškem
+LOCATION:Loško (kmetije in mlin)
+DESCRIPTION:Projekt Žita na Loškem — ogled za kmetovalce. Partner: RA S
+ ora\, Kmetija Punčar\, Zavod Poljanska dolina.\nhttps://kmetija-puncar.si
+ /projekt-zita-na-loskem/
+CATEGORIES:Lastni dogodki
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
