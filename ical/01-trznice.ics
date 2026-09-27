@@ -3,9 +3,8 @@ VERSION:2.0
 PRODID:-//Sorško polje//Koledarji//SL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Sorško polje — Tržnice
-X-WR-CALDESC:Mavška (4. petek) in Stražiška (2. petek) tržnica. Društv
- o Sorško polje.
+X-WR-CALNAME:D.S.p-Tržnice
+X-WR-CALDESC:Mavška in Stražiška tržnica; nedeljska maša ob 10. Društvo Sorško polje.
 X-WR-TIMEZONE:Europe/Ljubljana
 BEGIN:VTIMEZONE
 TZID:Europe/Ljubljana
@@ -52,6 +51,17 @@ DESCRIPTION:Vsak 2. petek v mesecu\, 17–19. Lokalna eko in konvencionalna
  e — https://sorskopolje.si
 CATEGORIES:Tržnice
 URL:https://sorskopolje.si
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-nedelja-10h@sorsko-ical.hladni
+DTSTAMP:20260927T181217Z
+DTSTART;TZID=Europe/Ljubljana:20260927T100000
+DTEND;TZID=Europe/Ljubljana:20260927T110000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Maša
+DESCRIPTION:Vsako nedeljo ob 10.00.
+CATEGORIES:Tržnice
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
