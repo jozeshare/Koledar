@@ -1,0 +1,283 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Župnija Kranj Šmartin//Maša-Stražišče//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Maša-Stražišče
+X-WR-CALDESC:Redne svete maše župnije Kranj–Šmartin (Stražišče). Vir: kranjsmartin.si
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:masa-po-0730@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260928T073000
+DTEND;TZID=Europe/Ljubljana:20260928T083000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Ponedeljek ob 7.30. Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-sr-0730@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260930T073000
+DTEND;TZID=Europe/Ljubljana:20260930T083000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Sreda ob 7.30. Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-to-19h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260929T190000
+DTEND;TZID=Europe/Ljubljana:20260929T200000
+RRULE:FREQ=WEEKLY;BYDAY=TU;BYMONTH=4,5,6,9,10
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 19.00 (spomlad/jesen). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-to-18h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261103T180000
+DTEND;TZID=Europe/Ljubljana:20261103T190000
+RRULE:FREQ=WEEKLY;BYDAY=TU;BYMONTH=11,12,1,2,3
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 18.00 (november–marec). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-to-20h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260707T200000
+DTEND;TZID=Europe/Ljubljana:20260707T210000
+RRULE:FREQ=WEEKLY;BYDAY=TU;BYMONTH=7,8
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 20.00 (julij–avgust). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-ce-19h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261001T190000
+DTEND;TZID=Europe/Ljubljana:20261001T200000
+RRULE:FREQ=WEEKLY;BYDAY=TH;BYMONTH=4,5,6,9,10
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 19.00 (spomlad/jesen). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-ce-18h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261105T180000
+DTEND;TZID=Europe/Ljubljana:20261105T190000
+RRULE:FREQ=WEEKLY;BYDAY=TH;BYMONTH=11,12,1,2,3
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 18.00 (november–marec). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-ce-20h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260709T200000
+DTEND;TZID=Europe/Ljubljana:20260709T210000
+RRULE:FREQ=WEEKLY;BYDAY=TH;BYMONTH=7,8
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 20.00 (julij–avgust). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-pe-19h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261002T190000
+DTEND;TZID=Europe/Ljubljana:20261002T200000
+RRULE:FREQ=WEEKLY;BYDAY=FR;BYMONTH=4,5,6,9,10
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 19.00 (spomlad/jesen). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-pe-18h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261106T180000
+DTEND;TZID=Europe/Ljubljana:20261106T190000
+RRULE:FREQ=WEEKLY;BYDAY=FR;BYMONTH=11,12,1,2,3
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 18.00 (november–marec). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-pe-20h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260710T200000
+DTEND;TZID=Europe/Ljubljana:20260710T210000
+RRULE:FREQ=WEEKLY;BYDAY=FR;BYMONTH=7,8
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 20.00 (julij–avgust). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-so-19h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261003T190000
+DTEND;TZID=Europe/Ljubljana:20261003T200000
+RRULE:FREQ=WEEKLY;BYDAY=SA;BYMONTH=4,5,6,9,10
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 19.00 (spomlad/jesen). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-so-18h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261107T180000
+DTEND;TZID=Europe/Ljubljana:20261107T190000
+RRULE:FREQ=WEEKLY;BYDAY=SA;BYMONTH=11,12,1,2,3
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 18.00 (november–marec). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-so-20h@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260711T200000
+DTEND;TZID=Europe/Ljubljana:20260711T210000
+RRULE:FREQ=WEEKLY;BYDAY=SA;BYMONTH=7,8
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Večerna maša ob 20.00 (julij–avgust). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-ne-0800@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260927T080000
+DTEND;TZID=Europe/Ljubljana:20260927T090000
+RRULE:FREQ=WEEKLY;BYDAY=SU;BYMONTH=1,2,3,4,5,6,9,10,11,12
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Nedelja ob 8.00. Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-ne-1000@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260927T100000
+DTEND;TZID=Europe/Ljubljana:20260927T110000
+RRULE:FREQ=WEEKLY;BYDAY=SU;BYMONTH=1,2,3,4,5,6,9,10,11,12
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Nedelja ob 10.00. Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:masa-ne-0900-poletje@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260705T090000
+DTEND;TZID=Europe/Ljubljana:20260705T100000
+RRULE:FREQ=WEEKLY;BYDAY=SU;BYMONTH=7,8
+SUMMARY:Sveta maša
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Nedelja ob 9.00 (julij–avgust). Župnija Kranj–Šmartin. Redni urnik z oznanil (kranjsmartin.si). Večerne maše: nov–mar 18h, jul–avg 20h, sicer 19h. Nedelje: jul–avg ob 9h, sicer 8h in 10h. Mašni nameni: PDF Martin na spletni strani župnije.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:srecanje-ministrantov-20260925@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20260925T180000
+DTEND;TZID=Europe/Ljubljana:20260925T190000
+SUMMARY:Srečanje ministrantov
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Župnija Kranj–Šmartin — Župnijski list XLIII/13. Vabljeni tudi novi ministranti.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zupnijsko-zegnanje-20261011@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261011T080000
+DTEND;TZID=Europe/Ljubljana:20261011T110000
+SUMMARY:Župnijsko žegnanje (semenj)
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Obletnica posvetitve župnijske cerkve (11. 10.). Pri mašah ofer za obnovo streh. Vir: Župnijski list XLIII/13.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:skavti-masa-20261010@masa-strazisce.kranjsmartin
+DTSTAMP:20260927T184711Z
+DTSTART;TZID=Europe/Ljubljana:20261010T190000
+DTEND;TZID=Europe/Ljubljana:20261010T200000
+SUMMARY:Sveta maša — sodelovanje skavtov
+LOCATION:Cerkev sv. Martina, Baragov trg 1, 4000 Kranj (Stražišče)
+DESCRIPTION:Začetek skavtskega leta; skavti sodelujejo pri maši, po maši pogostitev. Vir: Župnijski list XLIII/13.
+URL:https://www.kranjsmartin.si/
+CATEGORIES:Maša
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
