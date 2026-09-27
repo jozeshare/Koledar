@@ -27,8 +27,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:53d05eee2914aff5@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260920T090000
-DTEND:TZID=Europe/Ljubljana:20260920T170000
+DTSTART;TZID=Europe/Ljubljana:20260920T090000
+DTEND;TZID=Europe/Ljubljana:20260920T170000
 SUMMARY:Lahko.si! Festival samooskrbe
 LOCATION:Grad Štanjel
 DESCRIPTION:Organizira Društvo Samooskrbni.net.\nhttps://www.samooskrbni.n
@@ -54,8 +54,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ca491739d137f199@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260905T100000
-DTEND:TZID=Europe/Ljubljana:20260905T160000
+DTSTART;TZID=Europe/Ljubljana:20260905T100000
+DTEND;TZID=Europe/Ljubljana:20260905T160000
 SUMMARY:4. Praznik biodinamike
 LOCATION:Pogačarjev trg\, Ljubljana
 DESCRIPTION:Zveza biodinamikov Slovenije.\nhttps://www.praznikbiodinamike.s
@@ -67,8 +67,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:a00a297df664c8cd@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260919T080000
-DTEND:TZID=Europe/Ljubljana:20260919T130000
+DTSTART;TZID=Europe/Ljubljana:20260919T080000
+DTEND;TZID=Europe/Ljubljana:20260919T130000
 SUMMARY:Eko praznik v Kranju
 LOCATION:Pred Prešernovim gledališčem\, Kranj
 DESCRIPTION:Mestna občina Kranj + partnerji (tudi Sorško polje).

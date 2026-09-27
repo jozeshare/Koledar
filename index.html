@@ -6,22 +6,28 @@
   <title>Sorško polje — koledarji</title>
   <style>
     body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-    code { word-break: break-all; }
-    li { margin: 0.5rem 0; }
+    code { word-break: break-all; font-size: 0.9em; }
+    li { margin: 0.85rem 0; }
+    .note { background: #f4f4f5; padding: 0.75rem 1rem; border-radius: 8px; }
+    a.btn { display: inline-block; margin-right: 0.5rem; }
   </style>
 </head>
 <body>
   <h1>Sorško polje — naročljivi koledarji</h1>
-  <p>Dodaj koledar v Google / Apple / Outlook z »iz URL-ja«.</p>
+  <p class="note">
+    <strong>Google Calendar:</strong> uporabi povezavo »Dodaj v Google« (webcal).
+    Če ne gre, v Google Calendar → Nastavitve → Dodaj koledar → Iz URL-ja
+    prilepi naslov <code>https://…ics</code>.
+  </p>
   <ul>
-    <li><a href="ical/00-vse.ics">Vse</a></li>
-    <li><a href="ical/01-trznice.ics">Tržnice</a></li>
-    <li><a href="ical/02-vrtovi.ics">Vrtovi</a></li>
-    <li><a href="ical/03-lastni-dogodki.ics">Lastni dogodki</a></li>
-    <li><a href="ical/04-predavanja.ics">Predavanja</a></li>
-    <li><a href="ical/05-narava.ics">Narava</a></li>
-    <li><a href="ical/06-festivali.ics">Festivali</a></li>
-    <li><a href="ical/07-drugi-organizatorji.ics">Drugi organizatorji</a></li>
+    <li>Tržnice — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/01-trznice.ics">Dodaj v Google</a> · <a href="ical/01-trznice.ics"><code>01-trznice.ics</code></a></li>
+    <li>Vrtovi — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/02-vrtovi.ics">Dodaj v Google</a> · <a href="ical/02-vrtovi.ics"><code>02-vrtovi.ics</code></a></li>
+    <li>Lastni dogodki — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/03-lastni-dogodki.ics">Dodaj v Google</a> · <a href="ical/03-lastni-dogodki.ics"><code>03-lastni-dogodki.ics</code></a></li>
+    <li>Predavanja — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/04-predavanja.ics">Dodaj v Google</a> · <a href="ical/04-predavanja.ics"><code>04-predavanja.ics</code></a></li>
+    <li>Narava — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/05-narava.ics">Dodaj v Google</a> · <a href="ical/05-narava.ics"><code>05-narava.ics</code></a></li>
+    <li>Festivali — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/06-festivali.ics">Dodaj v Google</a> · <a href="ical/06-festivali.ics"><code>06-festivali.ics</code></a></li>
+    <li>Drugi organizatorji — <a class="btn" href="https://calendar.google.com/calendar/r?cid=webcal://jozeshare.github.io/Koledar/ical/07-drugi-organizatorji.ics">Dodaj v Google</a> · <a href="ical/07-drugi-organizatorji.ics"><code>07-drugi-organizatorji.ics</code></a></li>
   </ul>
+  <p>Agregat »Vse« namerno ni na seznamu za naročnino; datoteka obstaja kot <a href="ical/00-vse.ics"><code>00-vse.ics</code></a>.</p>
 </body>
 </html>

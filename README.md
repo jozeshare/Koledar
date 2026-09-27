@@ -1,24 +1,25 @@
-# Sorško polje — naročljivi koledarji
+# Sorško polje — iCalendar
 
-Živi iCalendar feede za Google / Apple / Outlook.
+Javni naročljivi `.ics` viri za Google / Apple / Outlook.
 
-## Naročnina (iz URL-ja)
+**Splet:** https://jozeshare.github.io/Koledar/
 
-Ko je **GitHub Pages** vklopljen, uporabi te povezave:
+## Google Calendar
 
-| Koledar | URL |
-|---|---|
-| Vse | `https://jozeshare.github.io/Koledar/ical/00-vse.ics` |
-| Tržnice | `https://jozeshare.github.io/Koledar/ical/01-trznice.ics` |
-| Vrtovi | `https://jozeshare.github.io/Koledar/ical/02-vrtovi.ics` |
-| Lastni dogodki | `https://jozeshare.github.io/Koledar/ical/03-lastni-dogodki.ics` |
-| Predavanja | `https://jozeshare.github.io/Koledar/ical/04-predavanja.ics` |
-| Narava | `https://jozeshare.github.io/Koledar/ical/05-narava.ics` |
-| Festivali | `https://jozeshare.github.io/Koledar/ical/06-festivali.ics` |
-| Drugi organizatorji | `https://jozeshare.github.io/Koledar/ical/07-drugi-organizatorji.ics` |
+Uporabi povezave »Dodaj v Google« na strani (oblika `cid=webcal://…`).
+Če povezava ne deluje: Nastavitve → Dodaj koledar → **Iz URL-ja** in prilepi `https://jozeshare.github.io/Koledar/ical/….ics`.
 
-**Google Koledar:** Nastavitve → Dodaj koledar → Iz URL-ja → prilepi zgornji naslov.  
-**Apple:** Datoteka → Nov koledarski naročniški račun.  
-**Outlook:** Dodaj koledar → Iz interneta.
+## Datoteke
 
-Datoteke so v mapi [`ical/`](ical/).
+| Datoteka | Kategorija |
+|----------|------------|
+| `ical/01-trznice.ics` | Tržnice |
+| `ical/02-vrtovi.ics` | Vrtovi |
+| `ical/03-lastni-dogodki.ics` | Lastni dogodki |
+| `ical/04-predavanja.ics` | Predavanja |
+| `ical/05-narava.ics` | Narava |
+| `ical/06-festivali.ics` | Festivali |
+| `ical/07-drugi-organizatorji.ics` | Drugi organizatorji |
+| `ical/00-vse.ics` | Agregat (ne za naročnino) |
+
+Popravek 2026-09-27: `DTSTART;TZID=` / `DTEND;TZID=` (prej neveljavni `DTSTART:TZID=`).

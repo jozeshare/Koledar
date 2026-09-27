@@ -27,8 +27,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:4c6affe21eb057f2@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260919T080000
-DTEND:TZID=Europe/Ljubljana:20260919T130000
+DTSTART;TZID=Europe/Ljubljana:20260919T080000
+DTEND;TZID=Europe/Ljubljana:20260919T130000
 SUMMARY:Eko praznik v Kranju
 LOCATION:Pred Prešernovim gledališčem\, Kranj
 DESCRIPTION:Društvo Sorško polje je soorganizator. Družinska točka iger
@@ -39,8 +39,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f5f306ddd88b5477@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260920T080000
-DTEND:TZID=Europe/Ljubljana:20260920T120000
+DTSTART;TZID=Europe/Ljubljana:20260920T080000
+DTEND;TZID=Europe/Ljubljana:20260920T120000
 SUMMARY:Pohod Jamnik / Zidane skale (z nabiranjem gob)
 LOCATION:Zbor pred AHA centrom
 DESCRIPTION:Organizira Društvo Sorško polje. Varianti: Rovte–Jamnik (~1
@@ -51,8 +51,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:637949cd676cdd11@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260929T190000
-DTEND:TZID=Europe/Ljubljana:20260929T210000
+DTSTART;TZID=Europe/Ljubljana:20260929T190000
+DTEND;TZID=Europe/Ljubljana:20260929T210000
 SUMMARY:Sestanek Društva Sorško polje
 LOCATION:KS Mavčiče
 DESCRIPTION:Sestanek društva. Predlogi tem in predavateljev dobrodošli.
@@ -62,8 +62,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:30fd362a9592a268@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260926T090000
-DTEND:TZID=Europe/Ljubljana:20260926T170000
+DTSTART;TZID=Europe/Ljubljana:20260926T090000
+DTEND;TZID=Europe/Ljubljana:20260926T170000
 SUMMARY:Ogled dobrih praks pridelave žit na Loškem
 LOCATION:Loško (kmetije in mlin)
 DESCRIPTION:Projekt Žita na Loškem — ogled za kmetovalce. Partner: RA S

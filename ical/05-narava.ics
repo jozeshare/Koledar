@@ -27,8 +27,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:d279a45094e8d386@sorsko-ical.hladni
 DTSTAMP:20260926T201942Z
-DTSTART:TZID=Europe/Ljubljana:20260930T190000
-DTEND:TZID=Europe/Ljubljana:20260930T210000
+DTSTART;TZID=Europe/Ljubljana:20260930T190000
+DTEND;TZID=Europe/Ljubljana:20260930T210000
 SUMMARY:Bogastvo perja nad reko Savo (DOPPS)
 LOCATION:Mestna knjižnica Kranj
 DESCRIPTION:Predava Dejan Bordjan. Celoten napovednik: https://ptice.si/nap
